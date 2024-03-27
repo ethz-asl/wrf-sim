@@ -4,6 +4,8 @@ This repository contains code to run nested WRF-ARW simulations in two stages an
 
 In the first stage a PBL model is used according to the configuration model and then in the second stage no PBL will be used. The postprocessing computes the 5 minute averages of the simulation output and stores it in a single NetCDF file.
 
+The output of the simulation can be visualized using the [wrf-viewer](https://github.com/ethz-asl/wrf-viewer).
+
 ## Installation
 
 #### General
