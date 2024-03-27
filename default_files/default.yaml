@@ -1,0 +1,24 @@
+MESO:
+  num_domains: 3
+
+LES:
+  num_domains: 2
+  time_offset_h: 3
+
+WPS:
+  path: /home/build_WRF/WPS-4.4
+  geog_data_path: /home/build_WRF/WPS_GEOG
+  use_era5_data: True
+  out_geog_data_path: /tmp/GEO_DATA
+  high_res_topo_file: /home/GEO_DATA/dtm_30m.tif
+  low_res_topo_file: /home/GEO_DATA/dtm_450m.tif
+
+WRF:
+  run_dir_path: /home/build_WRF/WRF-4.4.2-ARW/run
+
+UPP:
+  exe_path: /home/build_WRF/LIBRARIES/nceplibs/upp/bin/upp.x
+  base_dir: /home/UPP/UPP
+
+out:
+  out_directory: /tmp/WRF_SIM
