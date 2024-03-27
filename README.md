@@ -1,5 +1,9 @@
 
 # WRF-Sim
+<div>
+<a href="https://github.com/ethz-asl/wrf-sim/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-BSD%203-blue?logo=bsd" alt="license"/></a>
+</div>
+
 This repository contains code to run nested WRF-ARW simulations in two stages and postprocessing the WRF output.
 
 In the first stage a PBL model is used according to the configuration model and then in the second stage no PBL will be used. The postprocessing computes the 5 minute averages of the simulation output and stores it in a single NetCDF file.
